@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/start/start",
+    "pages/index/index",
+    "pages/book/book",
+    "pages/mine/mine",
+    "pages/logs/logs",
+    "pages/auth/auth"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "浮生",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "color": "#C5C5C5",
+    "selectedColor": "#FF615B",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/img/index.png",
+        "selectedIconPath": "/img/index2.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "书屋",
+        "iconPath": "/img/book.png",
+        "selectedIconPath": "/img/book2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "/img/mine.png",
+        "selectedIconPath": "/img/mine2.png"
+      }
+    ]
+  }
+}
